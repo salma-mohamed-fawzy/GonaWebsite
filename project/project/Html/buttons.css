@@ -1,0 +1,17 @@
+ a {
+  display: inline-block; /* Make buttons inline-block */
+  padding: 10px 15px; /* Adjust padding for desired size */
+  margin: 5px; /* Adjust margin for desired spacing */
+  font-family: Arial, sans-serif; /* Set your desired font */
+  color:white;
+  text-decoration: none; /* Remove underline */
+  background-color: null; /* Add a light background */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 5px; /* Add a slight rounded corner */
+  font-size:15px;
+  flex:none;
+  font-weight:bold; 
+}
+a:hover {
+    color: #F0E68C;
+}

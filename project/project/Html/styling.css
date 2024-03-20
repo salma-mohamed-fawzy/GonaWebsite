@@ -1,0 +1,66 @@
+
+ body
+     {
+      text-align:left;
+	  color:pink;
+	  font-size:14px;
+	  font-family:arial;
+	  background-color :ivory 
+	  
+
+     }
+ 
+ h1 {
+	text-align:center;
+	color:blue;
+	text-decoration:underline
+  }
+   
+  pre 
+     {
+		 
+		 text-align: right;
+		 color:red;
+		 font-size:18px;
+		 background-color:white
+	 }
+	 
+  
+  #ilist
+     {
+	color:green;
+	text-decoration-line:underline;
+	text-decoration-color:red;
+	list-style:square
+	
+	 }
+	 
+    .clist
+	{
+	color:green;
+	list-style:square
+	}
+	
+	table {
+	width:300px;
+	border: 20px solid;
+	border-color:black
+          }
+		  
+    td
+	   {
+		height:20px;
+		width:20px;
+		border:10px solid
+	   }
+
+	 #four
+	 {	 
+	 color:blue;
+	 border-color:pink
+	 }
+	 
+	 #two 
+	 {
+		 background-image:url(blue.png)
+	 }

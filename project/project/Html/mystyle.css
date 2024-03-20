@@ -1,0 +1,248 @@
+.homeclass {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        video {
+            top: 0;
+            left: 0;
+			right:0;
+			left:0;
+            width: 120%;
+            z-index: -1; /* Place the video behind other content */
+        }
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the video */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 30, 56, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Ballon EB';
+    margin-top:100px;
+	margin-left:160px;
+   
+}
+.text {
+    font-size: 20px;
+    color: #fff;
+	margin-top: -50px; 
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding-left:20px;
+    text-decoration: none;
+    color: #e0dadb;
+    font-size: 18px;
+    margin-right:0;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fff; 
+}
+
+.travel {
+	
+    font-size: 20px;
+    color: #fff;
+	text-decoration: none;
+	display: inline-block;
+    padding-left:160px;
+	padding-top:20px;
+}
+.button {
+    display: inline-block;
+    padding: 25px 40px;
+	margin-top:25px;
+    background-color: #fff; 
+    color: #575454; 
+    text-decoration: none;
+}
+
+.button span {
+    padding-left: 10px; 
+    background-color: #fff;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #dbd7d8;
+	color:white;
+}
+
+.button:hover span {
+    background-color: #dbd7d8;
+		
+
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url('footer.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.book{
+	 font-size: 20px;
+     color: #fff;
+	 margin-left: -100px; 
+     margin-top:50px;	 
+}
+#plan{
+	font-size: 50px;
+    color: #fff;
+    font-family: 'Ballon EB';
+    margin-top:100px;
+	margin-left:360px;
+}
+ .phone{
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin-top: -70px;
+			margin-left:-50px;
+        }
+ #number {
+			align-items:center;
+			margin-left:-20px;
+			color:white;
+			font-size:60px;
+			}
+.tabll{
+            width: 100%;
+            border-collapse: collapse;
+			margin-top: 80px;
+			margin-left:100px;
+        }
+.row1{
+text-align: left;
+color:#48484a;
+font-size:24px;
+}
+.row2{
+text-align: left;
+color:#414142;
+font-size:20px;
+text-decoration:none;
+
+
+align-items: center; 
+            justify-content: center; 
+}		
+.social-icon 
+{
+ margin-right: 10px; 
+}
+#end{
+ position: fixed;
+ bottom: 20px;
+ right: 550px;
+ color: #48484a;}
+.experience {
+            display: flex;
+			padding-top:30px;
+        }
+
+        .columnn {
+            width: 40%;
+            padding: 30px; /*inside each column*/
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+
+        .columnn img {
+            max-width: 100%;
+            height: auto;
+        }
+#ex-title{
+	font-size:40px;
+	color:black;
+}
+.we-will{
+	font-size:25px;
+}
+#headerrr{
+	border:none;
+	background-image: url('header.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#gonaheader{
+	border:none;
+	background-image: url('header.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#gheader{
+	border:none;
+	background-image: url('galleryhead.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#fa{
+	border:none;
+	background-image: url(alam.webp); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+a {
+  display: inline-block; /* Make buttons inline-block */
+  padding: 10px 15px; /* Adjust padding for desired size */
+  margin: 5px; /* Adjust margin for desired spacing */
+  font-family: Arial, sans-serif; /* Set your desired font */
+  color:white;
+  text-decoration: none; /* Remove underline */
+  background-color: null; /* Add a light background */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 5px; /* Add a slight rounded corner */
+  font-size:15px;
+  flex:none;
+  font-weight:bold; 
+}
+a:hover
+ {
+    color: #F0E68C;
+}
+h1
+ {
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gallery img {
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
